@@ -5,7 +5,7 @@
 }
 
 video{
-    position:absolute;
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -49,7 +49,7 @@ video{
 .btn.btn-primary{
     background-color:rgba(65, 20, 97, 0.619);
     border: #1c1c1d;
-    font-size: x-small;
+    
 }
 
 
@@ -57,7 +57,40 @@ video{
 {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 100%;
+    box-shadow: 0 0 50px rgb(70, 8, 115);
+    border-radius: 25px;
+    
+}
+
+.d-blockg
+{
+    display: block;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0 0 50px rgb(139, 15, 228);
+    border-radius: 25px;
+    
+}
+.carousel-indicators
+{
+top: 100%;
+}
+
+.card.card-body
+{
+    background-color:  rgba(49, 10, 78, 0.549);
+    color: white;
+    
+}
+/*media query tablet*/
+ @media (max-width: 1400px) {
+    
+.d-block
+{
+    display: block;
+    margin: auto;
+    width: 35%;
     box-shadow: 0 0 50px rgb(70, 8, 115);
     border-radius: 25px;
     
@@ -72,15 +105,35 @@ video{
     border-radius: 25px;
     
 }
-.carousel-indicators
+ }
+ /* medias query smarphone*/
+ @media (max-width: 450px) {
+    .btn.btn-primary
+    {
+        background-color:rgba(65, 20, 97, 0.619);
+        border: #1c1c1d;
+        font-size:small  ;
+        
+    }
+    
+.d-block
 {
-top: 100%;
+    display: block;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0 0 50px rgb(70, 8, 115);
+    border-radius: 25px;
+    
 }
 
-.card.card-body
+.d-blockg
 {
-    background-color:  rgba(49, 10, 78, 0.549);
-    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0 0 50px rgb(139, 15, 228);
+    border-radius: 25px;
+    
 }
-
+ }
 
