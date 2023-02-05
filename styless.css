@@ -41,6 +41,14 @@ video{
     text-align: center;
 }
 
+.card.card-body
+{
+    background-color:  rgba(49, 10, 78, 0.549);
+    color: white;    
+    display: block;
+    margin: auto;
+}
+
 .btn.btn-primary{
     background-color:rgba(65, 20, 97, 0.619);
     border: #1c1c1d;    
@@ -50,8 +58,9 @@ video{
 {
     display: block;
     margin: auto;
-    width: 100%;
-    box-shadow: 0 0 50px rgb(70, 8, 115);
+    width: 30%;
+    height: auto;
+    box-shadow: 5px 5px 30px rgb(255, 2, 141);
     border-radius: 25px;    
 }
 
@@ -59,8 +68,9 @@ video{
 {
     display: block;
     margin: auto;
-    width: 100%;
-    box-shadow: 0 0 50px rgb(139, 15, 228);
+    height: auto;
+    width: 25%;
+    box-shadow: 0 0 50px rgb(255, 2, 141);
     border-radius: 25px;
 }
 
@@ -69,16 +79,12 @@ video{
 top: 100%;
 }
 
-.card.card-body
+footer
 {
-    background-color:  rgba(49, 10, 78, 0.549);
-    color: white;    
-}
-
-.logo
-{
-    width: 5%;
-    border-radius: 25px;
+   color: white;
+    bottom: 0%;
+    background-color: rgba(70, 8, 115, 0.582);
+    
 }
 
 /*media query tablet*/
@@ -103,6 +109,7 @@ top: 100%;
     border-radius: 25px;
     
 }
+
  }
  /* medias query smarphone*/
  @media (max-width: 450px) {
@@ -133,5 +140,6 @@ top: 100%;
     border-radius: 25px;
     
 }
+
  }
 
