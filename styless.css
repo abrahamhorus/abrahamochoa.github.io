@@ -13,6 +13,7 @@ video{
     object-fit: cover;
     z-index: -1;
 }
+
 .capa{
     position: absolute;
     top: 0;
@@ -24,9 +25,6 @@ video{
     mix-blend-mode: overlay;
 }
 
-
-
-
 .nombre{
     color: white;
     position: relative;
@@ -34,24 +32,19 @@ video{
     text-align: center;
     background-color: rgba(89, 19, 138, 0.716);
     border-radius: 15px;
-    
     display: block;
     margin: auto;
-   
-
 }
 
 .acerca
 {
     text-align: center;
-    
-}
-.btn.btn-primary{
-    background-color:rgba(65, 20, 97, 0.619);
-    border: #1c1c1d;
-    
 }
 
+.btn.btn-primary{
+    background-color:rgba(65, 20, 97, 0.619);
+    border: #1c1c1d;    
+}
 
 .d-block
 {
@@ -59,8 +52,7 @@ video{
     margin: auto;
     width: 100%;
     box-shadow: 0 0 50px rgb(70, 8, 115);
-    border-radius: 25px;
-    
+    border-radius: 25px;    
 }
 
 .d-blockg
@@ -70,8 +62,8 @@ video{
     width: 100%;
     box-shadow: 0 0 50px rgb(139, 15, 228);
     border-radius: 25px;
-    
 }
+
 .carousel-indicators
 {
 top: 100%;
@@ -80,9 +72,15 @@ top: 100%;
 .card.card-body
 {
     background-color:  rgba(49, 10, 78, 0.549);
-    color: white;
-    
+    color: white;    
 }
+
+.logo
+{
+    width: 5%;
+    border-radius: 25px;
+}
+
 /*media query tablet*/
  @media (max-width: 1400px) {
     
