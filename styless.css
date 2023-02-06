@@ -124,15 +124,7 @@ top: 100%;
  }
  /* medias query smarphone*/
  @media (max-width: 450px) {
-    body
-    {
-    background: #0c192c;
-    position: relative;
-    padding-bottom: 78%;
-    min-height: 100vh;
-    }
-
-
+    
     .btn.btn-primary
     {
         background-color:rgba(65, 20, 97, 0.619);
@@ -174,9 +166,8 @@ top: 100%;
 
 body
 {   
-background: #0c192c;
-position: relative;
-padding-bottom: 20%;
+background-color: black;
+
 min-height: 100vh;
 }
 
@@ -209,7 +200,7 @@ min-height: 100vh;
     0 0 50px #4fc3dc,
     0 0 100px #4fc3dc;
     animation: animate 15s linear infinite;
-    animation-duration: calc(10s / var(--i));
+    animation-duration: calc(95s / var(--i));
     
 }
 .bubbles span:nth-child(even)
