@@ -12,12 +12,32 @@
   <body>
     <main>
      <h1 class="nombre">Abraham Ochoa</h1>
-    <video muted autoplay loop> 
-      <source   src= "imagenes/animation.mp4" type="video/mp4">
-    </video>
-    <div class="cap"></div>
-      <br>
-    <!--Carrusel-->
+    <section class="container">
+         <div class="video-container">
+            <video src="imagenes/animation.mp4" autoplay muted loop></video>
+         </div>
+    </section>
+    <div class="cap"></div><br><br>
+    
+      <div class="acerca"><!--acerca-->
+      <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Acerca de mi
+        </a>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Habilidades
+        </a>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Proyectos
+        </a>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Contacto
+        </a>
+      </p>
+      <div class="collapse" id="collapseExample4">
+        <div class="card card-body">
+          Hola me llamo Abraham Ochoa soy Desarrollador Java Full Stack Jr.<br>Graduado de Generation Mx, Diseño y programo sitios web en el front-end,<br>También me se desempeñar en el back-end. Me encanta darle vida y color a las páginas web,<br> Vivo en la ciudad de México y amo hacer música, estoy abierto a nuevos retos y en constante aprendizaje.<br> <br>
+           <!--Carrusel-->
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -45,60 +65,44 @@
       </button>
     </div>
      <!--Se termina el carrusel-->
-      <br>
-
-      <div class="acerca"><!--acerca-->
-      <p>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Acerca de mi
-        </a>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Habilidades
-        </a>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Proyectos
-        </a>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Contacto
-        </a>
-      </p>
-      <div class="collapse" id="collapseExample1">
-        <div class="card card-body">
-          Hola me llamo Abraham Ochoa soy Desarrollador Java Full Stack Jr. <br> Graduado de Generation Mx, enfocado principalmente en el diseño Web. <br> Me encanta darle vida y color a las páginas, <br> Vivo en la ciudad de México y amo hacer música.<br> Actualmente diseño y  programo sitios web  principalmente en el front-end, <br> sin embargo también  me se desempeñar en el back-end. <br> Estoy en busqueda de primer empleo en el ámbito de la programación. 
-        </div>
-      </div>
-
-      <div class="collapse" id="collapseExample2">
-        <div class="card card-body">
-          Front-end: | HTML | CSS | JAVASCRIPT | REACT | BOOTSPRAP | VISUAL STUDIO CODE |<br>
-          Back-end: | JAVA | MYSQL | SPRINGBOOT | GRADLE | MAVEN | ECLIPSE | INTELLIJ | POSTMAN | NODEJS |
         </div>
       </div>
 
       <div class="collapse" id="collapseExample3">
         <div class="card card-body">
+          Front-end: | HTML | CSS | JAVASCRIPT | REACT | BOOTSPRAP | VISUAL STUDIO CODE | GIT | GITHUB |<br>
+          Back-end: | JAVA | MYSQL | SPRINGBOOT | GRADLE | MAVEN | ECLIPSE | INTELLIJ | POSTMAN | NODEJS |
+        </div>
+      </div>
+
+      <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
           Proyectos: <br>
-          Actualmente el proyecto más cercano es una red social para mascotas llamada "Petbook", <br>    fue un proyecto final requerido para poder graduarme, en este proyecto trabaje con más personas <br> con la metodología SCRUM. <br>
+          Desarrolló de una página Web que consiste en una red social sobre 
+          mascotas llamada Peetbook,<br>este fue un proyecto que realice en trabajo 
+          colaborativo para la organización Generation México.<br> En este proyecto 
+          aplique al máximo mis conocimientos sobre HTML, CSS Y JAVASCRIPT para 
+          el front-end<br> y el uso de JAVA,así como también el uso de 
+          las Herramientas GIT Y GITHUB para el tener un control<br> de versiones en 
+          repositorios públicos y el uso de MYSQL para la base datos. <br>
           Pueden acceder a este proyecto con la siguiente dirección: <a href="https://petbook-generation.up.railway.app/login.html" target="_blank"> https://petbook-generation.up.railway.app/login.html </a>
-          <br>La cuenta en el servidor es gratuita tenemos una cantidad limitada de horas por mes <br> así que es probable que no esté disponible en todo momento, <br> si ese fuera el caso pueden ingresar al repositorio oficial en GitHub: <a href="https://github.com/abrahamhorus/PetBook" target="_blank"> https://github.com/abrahamhorus/PetBook
+          <br>La cuenta en el servidor tiene una cantidad limitada de horas por mes así que es probable que no esté disponible<br> en todo momento, si ese fuera el caso pueden ingresar al repositorio oficial en GitHub: <a href="https://github.com/abrahamhorus/PetBook" target="_blank"> https://github.com/abrahamhorus/PetBook
           </a>
         </div>
       </div>
 
-      <div class="collapse" id="collapseExample4">
-        <div class="card card-body">
-          <img src="imagenes/gmail.png" alt="gmaillogo" style="width: 20%;display: flexbox;">
-         <img src="imagenes/whatsapp.png" alt="whatsapplogo" style="width: 23%; display: flexbox;">
-         <a href="https://www.linkedin.com/in/abrahamochoabernal/" target="_blank"><img src="imagenes/LinkedIn_Logo.jpg" style="width: 15%; display: flexbox;" ></a>
-         <a href="https://github.com/abrahamhorus" target="_blank"><img src="imagenes/github.png" alt="GitHublogo" style="width: 23%; display: flexbox;" ></a>
-        </div>
-      </div>
-
-     </div><!--Termina el div acerca-->
-     <br><br>
-     <iframe style="width: 100%; height: 50px; position:fixed; bottom: 0%; border-radius: 25px;" src="https://www.youtube.com/embed/twbnPIau-do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+          <div class="collapse" id="collapseExample1">
+           <div class="card card-body">
+           <a href="imagenes/C.V.pdf" target="_blank"><img src="imagenes/qr-code.png" style="width: 15%; display: flexbox;" ></a>
+            </div>
+            </div>
+       </div><!--Termina el div acerca-->
+       <br>
+        <iframe style="width: 100%; height: 10%;; position: relative;" src="https://www.youtube.com/embed/twbnPIau-do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </main>
     
+   
+  
         <!-- JavaScript Bundle with Popper -->
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   

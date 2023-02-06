@@ -37,7 +37,8 @@ video{
     position: relative;
     z-index: 2;
     text-align: center;
-    background-color: rgba(89, 19, 138, 0.716);
+    background-color: rgba(88, 19, 138, 0.266);
+    box-shadow: 5px 1px 20px rgb(255, 2, 141);
     border-radius: 15px;
     display: block;
     margin: auto;
@@ -45,15 +46,20 @@ video{
 
 .acerca
 {
-    text-align: center;
+    text-align:center;
+    box-shadow: 5px 1px 20px rgb(255, 2, 141);
+    
+    
 }
 
 .card.card-body
 {
     background-color:  rgba(49, 10, 78, 0.549);
     color: white;    
-    display: block;
+    display: flexbox;
     margin: auto;
+    box-shadow: 5px 5px 30px rgb(255, 2, 141);
+
 }
 
 .btn.btn-primary{
@@ -63,7 +69,7 @@ video{
 
 .d-block
 {
-    display: block;
+    display: flexbox;
     margin: auto;
     width: 30%;
     height: auto;
@@ -73,7 +79,7 @@ video{
 
 .d-blockg
 {
-    display: block;
+    display: flexbox;
     margin: auto;
     height: auto;
     width: 25%;
@@ -92,6 +98,13 @@ footer
     bottom: 0%;
     background-color: rgba(70, 8, 115, 0.582);
     
+}
+
+.button.accordion-button
+{
+    display: block;
+    position: absolute;
+    width: 10px;
 }
 
 /*media query tablet*/
