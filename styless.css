@@ -133,28 +133,6 @@ top: 100%;
         
     }
     
-.d-block
-{
-    display: block;
-    margin: auto;
-    width: 100%;
-    box-shadow: 0 0 50px rgb(70, 8, 115);
-    border-radius: 25px;
-    
-}
-
-.d-blockg
-{
-    display: block;
-    margin: auto;
-    width: 100%;
-    box-shadow: 0 0 50px rgb(139, 15, 228);
-    border-radius: 25px;
-    
-}
-
- }
- 
 /* animaciones bubbles*/
 
 *
@@ -222,3 +200,6 @@ min-height: 100vh;
     transform: translateY(-10vh) scale(1);
  }
 }
+
+ }
+ 
