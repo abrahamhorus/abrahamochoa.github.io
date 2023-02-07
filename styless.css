@@ -237,9 +237,10 @@ justify-content: center;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
-  text-shadow: 
+   /* text-shadow: 
 						4px 4px #ff1f8f,
 						6px 6px #000000;
+            */
 }
 
 .qr
