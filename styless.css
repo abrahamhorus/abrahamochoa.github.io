@@ -283,14 +283,14 @@ top: 100%;
     position: relative;
     width: 30px;
     height: 30px;
-    background: #d9ec28;
+    background: #111111b7;
     margin: 0 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #f3f0f0b0,
-    0 0 50px #e5ebec,
-    0 0 100px #0f0f0e;
+    box-shadow: 0 0 0 10px #1111115d,
+    0 0 50px #070707,
+    0 0 100px #080808;
     animation: animate 15s linear infinite;
-    animation-duration: calc(15s / var(--i));
+    animation-duration: calc(45s / var(--i));
     display: block;
     margin: auto;
     
@@ -298,7 +298,7 @@ top: 100%;
  .bubbles span:nth-child(even)
  {
     background: #f0eeee;
-    box-shadow: 0 0 0 10px #e6e9ec44,
+    box-shadow: 0 0 0 10px #e7e2e244,
     0 0 50px #f7edf1,
     0 0 100px #9c9597;
  }
