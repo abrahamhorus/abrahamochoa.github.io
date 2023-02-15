@@ -283,12 +283,12 @@ top: 100%;
     position: relative;
     width: 30px;
     height: 30px;
-    background: #141414cb;
+    background: #d7e932cb;
     margin: 0 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #141414b0,
+    box-shadow: 0 0 0 10px #f3f0f0b0,
     0 0 50px #eaedee,
-    0 0 100px #d9eb74;
+    0 0 100px #0f0f0e;
     animation: animate 15s linear infinite;
     animation-duration: calc(55s / var(--i));
     display: block;
@@ -317,7 +317,7 @@ top: 100%;
 
  .acerca
  {     
-     box-shadow: 5px 5px 30px rgb(240, 238, 238)
+     box-shadow: 5px 5px 30px rgba(240, 238, 238, 0.048)
  }
  
  .card.card-body
@@ -329,8 +329,8 @@ top: 100%;
  }
  
  .btn.btn-primary{
-     background-color:rgba(13, 13, 14, 0.619);
-     border: #f5f5fa;    
+     background-color:rgba(221, 235, 27, 0.619);
+     border: #080808;    
      box-shadow: 5px 5px 30px rgb(250, 247, 247);
      font-size: small;
      color: #f7f4f4;
