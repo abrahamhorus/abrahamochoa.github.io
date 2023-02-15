@@ -268,11 +268,49 @@ top: 100%;
      
 /* medias query smarphone*/
 @media (max-width: 450px) {
+  html {
+    height: 100%;
+    /* max-height: 600px; */
+    width: 100%;
+    background-color: hsla(200,40%,30%,.4);
+    background-image:   
+      url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+      url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+      url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position: 
+      0 20%,
+      0 100%,
+      0 50%,
+      0 100%,
+      0 0;
+    background-size: 
+      2500px,
+      800px,
+      500px 200px,
+      1000px,
+      400px 260px;
+    animation: 50s para infinite linear;
+    }
+  
+  @keyframes para {
+    100% {
+      background-position: 
+        -5000px 20%,
+        -800px 95%,
+        500px 50%,
+        1000px 100%,
+        400px 0;
+      }
+    }
+  
   body
   {
-   background-image: url("imagenes/phonebackground.jpg");
+   
     width: 100%;
-        
+        background-color: #00000000;
   }
  
   /* animaciones bubbles*/
@@ -280,28 +318,10 @@ top: 100%;
 
  .bubbles span
  {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background: #111111b7;
-    margin: 0 4px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 10px #1111115d,
-    0 0 50px #070707,
-    0 0 100px #080808;
-    animation: animate 15s linear infinite;
-    animation-duration: calc(45s / var(--i));
-    display: block;
-    margin: auto;
+   display: none;
     
  }
- .bubbles span:nth-child(even)
- {
-    background: #f0eeee;
-    box-shadow: 0 0 0 10px #e7e2e244,
-    0 0 50px #f7edf1,
-    0 0 100px #9c9597;
- }
+ 
  @keyframes animate
  {
  0%
@@ -322,18 +342,18 @@ top: 100%;
  
  .card.card-body
  {
-     background-color:  rgba(0, 0, 0, 0.719);
+     background-color:  rgba(13, 14, 12, 0.767);
      color: rgb(241, 236, 236);
-     box-shadow: 5px 5px 30px rgb(236, 233, 233);
+     box-shadow: 5px 5px 30px rgb(62, 175, 106);
  
  }
  
  .btn.btn-primary{
-     background-color:rgba(241, 241, 235, 0.733);
+     background-color:rgba(41, 110, 14, 0.733);
      border: #080808;    
-     box-shadow: 5px 5px 30px rgb(250, 247, 247);
+     box-shadow: 5px 5px 50px rgb(14, 15, 14);
      font-size: small;
-     color: #000000;
+     color: #fcf2f2;
  }
         
     .d-block
@@ -381,18 +401,18 @@ top: 100%;
     }
     
     .text:nth-child(5n + 1) {
-      stroke: #eff0eb;
+      stroke: #47a15e;
       -webkit-animation-delay: -1.2s;
       animation-delay: -1.2s;
     }
     .text:nth-child(5n + 2) {
-      stroke: #f7f6ef;
+      stroke: #d8c640;
       -webkit-animation-delay: -2.4s;
       animation-delay: -2.4s;
     }
     
     .text:nth-child(5n + 3) {
-      stroke: #E9F1DF;
+      stroke: #ce823b;
       -webkit-animation-delay: -3.6s;
       animation-delay: -3.6s;
     }
@@ -404,7 +424,7 @@ top: 100%;
     }
     
     .text:nth-child(5n + 5) {
-      stroke: #ffffff;
+      stroke: #e93737;
       -webkit-animation-delay: -6s;
       animation-delay: -6s;
     }
