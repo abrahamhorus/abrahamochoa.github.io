@@ -1,169 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
-#hero 
-{
-    min-height: 100vh;
-    position: relative;
-}
 
-video{
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -3;
-}
-
-
-.nombre{
-    color: white;
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    background-color: rgba(88, 19, 138, 0.266);
-    box-shadow: 5px 1px 20px rgb(255, 2, 141);
-    border-radius: 15px;
-    display: block;
-    margin: auto;
-}
-
-.acerca
-{
-    text-align:center;
-    position: relative;
-    bottom: 15%;
-    margin: auto;
-    
-    box-shadow: 5px 5px 30px rgb(255, 2, 141)
-}
-
-.card.card-body
-{
-    background-color:  rgba(49, 10, 78, 0.549);
-    color: white;
-    position: relative;    
-    display: block;
-    margin: auto;
-    box-shadow: 5px 5px 30px rgb(255, 2, 141);
-
-}
-
-.btn.btn-primary{
-    background-color:rgba(65, 20, 97, 0.619);
-    border: #1c1c1d;    
-    box-shadow: 5px 5px 30px rgb(255, 2, 141);
-    
-}
-
-.d-block
-{
-  
-    margin: auto;
-    width: 30%;
-    height: auto;
-    box-shadow: 5px 5px 30px rgba(241, 239, 242, 0.711);
-    border-radius: 25px;    
-}
-
-.d-blockg
-{
- 
-    margin: auto;
-    height: auto;
-    width: 30%;
-    box-shadow: 0 0  50px rgba(241, 239, 242, 0.711);
-    border-radius: 25px;
-}
-
-.carousel-indicators
-{
-top: 100%;
-}
-
-.button.accordion-button
-{
-    display: flex;
-    position: relative;
-    width: 10px;
-}
-
- /* animaciones bubbles*/
-
+/*Estilos del video background*/
 *
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body
-{   
-min-height: 100vh;
-background-color: black;
-justify-content: center;
-
-
-}
-
-.containerr
+.body
 {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    z-index: -1;
-    
-}
+   width: 100%;
+   height: 100%;
+   
+   
 
-.bubbles
-{
-    position: relative;
-    display: flex;
-    
+   align-items: center;
+   justify-content: center;
 }
+.backgroundvideo
+{
+  position: fixed;
+  object-fit: cover;
+  z-index: -3;
+  width: 100%;
+  height: 100%;
+ 
 
-.bubbles span
-{
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background: #4fc3dc;
-    margin: 0 4px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 10px #4fc3dc44,
-    0 0 50px #4fc3dc,
-    0 0 100px #4fc3dc;
-    animation: animate 15s linear infinite;
-    animation-duration: calc(15s / var(--i));
-    display: block;
-    margin: auto;
-    
 }
-.bubbles span:nth-child(even)
-{
-    background: #ff2d75;
-    box-shadow: 0 0 0 10px #ff2d7544,
-    0 0 50px #ff2d75,
-    0 0 100px #ff2d75;
-}
-@keyframes animate
-{
- 0%
- {
-    transform: translateY(100vh) scale(0);
+/*Se termina el video background*/
 
- }   
- 100%
- {
-    transform: translateY(-10vh) scale(1);
+/*Estilos dela animacion del nombre*/
+
+
+.headersvg {
+  display: block;
+  margin: auto;  
+  position: initial;
+  font: 8em/1 Open Sans, Impact;
+  width: 50%;
+  text-transform: uppercase;
+  
  }
-}
 
-/* Main styles estilos del texto Abraham ochoa y mas cosas */
-
-.text {
+ .text {
   fill: none;
   stroke-width: 10;
   stroke-linejoin: round;
@@ -215,17 +96,139 @@ justify-content: center;
   }
 }
 
+
+/*Se termina estilos de animacion del nombre*/
+
+.acerca
+{
+    
+    text-align: center;
+    position: relative;
+    bottom: 15%;
+    margin: auto;
+    
+    box-shadow: 5px 5px 30px rgb(255, 2, 141)
+}
+
+.card.card-body
+{
+    background-color:  rgba(49, 10, 78, 0.788);
+    color: white;
+    position: relative;    
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 30px rgb(255, 2, 141);
+
+}
+
+.btn.btn-primary{
+    background-color:rgba(65, 20, 97, 0.619);
+    border: #1c1c1d;    
+    box-shadow: 5px 5px 30px rgb(255, 2, 141);
+    
+}
+
+.d-block
+{
+  
+    margin: auto;
+    width: 30%;
+    height: auto;
+    box-shadow: 5px 5px 30px rgba(241, 239, 242, 0.711);
+    border-radius: 25px;    
+}
+
+.d-blockg
+{
+ 
+    margin: auto;
+    height: auto;
+    width: 30%;
+    box-shadow: 0 0  50px rgba(241, 239, 242, 0.711);
+    border-radius: 25px;
+}
+
+.carousel-indicators
+{
+top: 100%;
+}
+
+.button.accordion-button
+{
+    display: flex;
+    position: relative;
+    width: 10px;
+}
+
+ /* animaciones bubbles
+
+
+
+
+
+
+.containerrbubbles
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    
+}
+
+.bubbles
+{
+    position: relative;
+    display: flex;
+    
+}
+
+.bubbles span
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(15s / var(--i));
+    display: block;
+    margin: auto;
+    
+}
+.bubbles span:nth-child(even)
+{
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 100px #ff2d75;
+}
+@keyframes animate
+{
+ 0%
+ {
+    transform: translateY(100vh) scale(0);
+
+ }   
+ 100%
+ {
+    transform: translateY(-10vh) scale(1);
+ }
+}*/
+
+/* Main styles estilos del texto Abraham ochoa y mas cosas */
+
+
+
 /* Other styles */
 
 
-.headersvg {
-  display: block;
-  margin: auto;  
-  position: initial;
-  font: 8em/1 Open Sans, Impact;
-  width: 50%;
-  text-transform: uppercase;
- }
+
  
  /* estilos de texto contenido acerca*/
 .contenidos{
@@ -234,9 +237,11 @@ justify-content: center;
   transform: translate(-50%, -50%);
   font: size 10%;
 	letter-spacing:0.1em;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: solid;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: rgb(233, 215, 233);
+  
+
    /* text-shadow: 
 						4px 4px #ff1f8f,
 						6px 6px #000000;
