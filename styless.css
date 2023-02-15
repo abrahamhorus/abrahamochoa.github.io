@@ -329,11 +329,11 @@ top: 100%;
  }
  
  .btn.btn-primary{
-     background-color:rgba(221, 235, 27, 0.619);
+     background-color:rgba(229, 241, 56, 0.619);
      border: #080808;    
      box-shadow: 5px 5px 30px rgb(250, 247, 247);
      font-size: small;
-     color: #f7f4f4;
+     color: #000000;
  }
         
     .d-block
