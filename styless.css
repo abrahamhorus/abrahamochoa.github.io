@@ -283,14 +283,14 @@ top: 100%;
     position: relative;
     width: 30px;
     height: 30px;
-    background: #d7e932cb;
+    background: #d9ec28;
     margin: 0 4px;
     border-radius: 50%;
     box-shadow: 0 0 0 10px #f3f0f0b0,
-    0 0 50px #eaedee,
+    0 0 50px #e5ebec,
     0 0 100px #0f0f0e;
     animation: animate 15s linear infinite;
-    animation-duration: calc(55s / var(--i));
+    animation-duration: calc(15s / var(--i));
     display: block;
     margin: auto;
     
@@ -381,12 +381,12 @@ top: 100%;
     }
     
     .text:nth-child(5n + 1) {
-      stroke: #c8d83d;
+      stroke: #eff0eb;
       -webkit-animation-delay: -1.2s;
       animation-delay: -1.2s;
     }
     .text:nth-child(5n + 2) {
-      stroke: #ebe162;
+      stroke: #f7f6ef;
       -webkit-animation-delay: -2.4s;
       animation-delay: -2.4s;
     }
@@ -404,7 +404,7 @@ top: 100%;
     }
     
     .text:nth-child(5n + 5) {
-      stroke: #e7e568;
+      stroke: #ffffff;
       -webkit-animation-delay: -6s;
       animation-delay: -6s;
     }
